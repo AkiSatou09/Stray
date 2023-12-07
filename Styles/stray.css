@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  background-image: url(https://pixahive.com/wp-content/uploads/2020/08/A-Street-Dog-10603-pixahive.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@keyframes SlideRight {
+  from {
+    transform: translateX(800px);
+  }
+
+  to {
+    transform: translate(0);
+}
+
+}
+
+.main-container-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  max-height: 65px;
+  height: 65px;
+  position: sticky;
+  top: 0;
+}
+
+.paragraph-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-left: 50px;
+  width: 50px;
+}
+
+.stray-001 {
+  font-size: 30px;
+  font-family: 'Lobster', sans-serif;
+  color: black;
+}
+
+.nav-01 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: transparent;
+  width: 400px;
+  margin-right: 25px;
+}
+
+.nav-02:hover {
+  background-color: #FCBD49;
+  border-radius: 35px;
+}
+
+.nav-02 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 16px;
+  width: 80px;
+  height: 30px;
+  transition: all .35s ease;
+
+}
+
+a {
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+  color: black;
+}
+
+.nav-02:hover {
+  transform: scale(1.2);
+}
+
+.main-container-body {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+.first-division {
+  margin-top: 70px;
+  width: 600px;
+  height: 350px;
+
+  animation-name: SlideRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+
+.first-division-001 {
+  margin-top: 13px;
+  font-size: 48px;
+  color: white;
+}
+
+.name-001 {
+  font-size: 30px;
+  color: white;
+}
+
+.name-00 {
+  margin-top: 10px;
+}
+
+.second-division {
+  color: white;
+  width: 600px;
+  height: 350px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.donate-adopt:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color:  solid black;
+}
+
+.donate-adopt:active {
+  opacity: .6;
+}
+
+.donate-button {
+  display: inline-block;
+  margin-top: 60px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  margin-right: 27px;
+  margin-left: 5px;
+  background-color: #FCBD49;
+  border-radius: 8px;
+  border: solid #FCBD49 1px;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: 700px;
+  transition: .35s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+button:active {
+  opacity: .5;
+  transition: .15s ease;
+}
+
+.main-lower {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 550px;
+  background-color:  #FCBD49;
+}
+
+.lower-001 {
+  display: block;
+  background-color: transparent;
+  width: 469px;
+}
+
+.img-lower {
+  width: 90px;
+}
+
+.lower-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.lower-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.lower-text-001 {
+font-size: 17px;
+}
+
+.new-section {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 250px;
+}
+
+.info-00 {
+  display: block;
+  font-size: 17px;
+  width: 600px;
+  background: white;
+}
+ .stray-prob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  background-color: white;
+ }
+
+ .extra-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 20px;
+ }
