@@ -1,0 +1,141 @@
+.article-part {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+@keyframes SlideRight {
+  from {
+    transform: translateX(800px);
+  }
+
+  to {
+    transform: translate(0);
+}
+
+}
+
+.article-sec-00 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.article-content {
+  background-color: white;
+  width: 280px;
+  height: 380px;
+  border-radius: 80%;
+  margin-top: 25px;
+  transition: all .35s;
+
+  animation-name: SlideRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+
+.article-content:hover {
+  background-color: #FCBD49;
+  width: 280px;
+  height: 380px;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.img-art-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.article-01 {
+  width: 220px;
+  border-radius: 15px;
+}
+
+.par-art-01 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 15px;
+}
+
+.art-01-btn {
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.donate-bttn {
+  width: 120px;
+  height: 50px;
+  margin-right: 27px;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 8px;
+  border: solid white 1px;
+  color: #FCBD49;
+  font-family: 'Merriweather', serif;
+  font-weight: 700px;
+  transition: .35s ease;
+}
+
+.article-part-00 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FCBD49;
+  padding-bottom: 20px;
+}
+
+.article-content-00 {
+  background-color: #FCBD49;
+  width: 280px;
+  height: 380px;
+  border-radius: 80%;
+  margin-top: 25px;
+  transition: all .35s;
+
+  animation-name: SlideRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+
+.article-content-00:hover {
+  background-color: white;
+  width: 280px;
+  height: 380px;
+  border-radius: 25px;
+  margin-top: 25px;
+  transition: all .35s;
+}
+
+.donate-bttn-00 {
+  width: 120px;
+  height: 50px;
+  margin-right: 27px;
+  margin-left: 5px;
+  background-color: #FCBD49;
+  border-radius: 8px;
+  border: solid #FCBD49 1px;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: 700px;
+  transition: .35s ease;
+}
+
+.documentary-sec-00 {
+  background-color: #FCBD49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+}
