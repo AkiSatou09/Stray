@@ -1,0 +1,59 @@
+.ffl-000 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+p {
+  font-size: 18px;
+}
+
+.p-adopt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+}
+
+.adopt-look {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCBD49;
+}
+
+.adopt-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCBD49;
+}
+
+.adopt-clickable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #FCBD49;
+}
+
+.adopt-pots {
+  width: 200px;
+  height: 50px;
+  margin-right: 27px;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 10px;
+  border: solid white 1px;
+  color: #FCBD49;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700px;
+}
+
+.ema-cont {
+  margin-top: -55px;
+}

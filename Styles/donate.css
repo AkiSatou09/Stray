@@ -1,0 +1,54 @@
+.donate-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  margin-left: 25px;
+  margin-top: 0;
+  width: 550px;
+  height: 580px;
+
+  animation-name: SlideRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+
+@keyframes SlideRight {
+  from {
+    transform: translateX(800px);
+  }
+
+  to {
+    transform: translate(0);
+}
+
+}
+
+.paragraph-donate {
+  font-size: 18px;
+  color: white;
+}
+
+.free-rook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.donate-on-paws {
+  width: 250px;
+  height: 50px;
+  margin-right: 27px;
+  margin-left: 5px;
+  background-color:  #FCBD49;
+  border-radius: 8px;
+  border: solid #FCBD49 1px;
+  color: white;
+  font-size: 19px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700px;
+}
+
+
