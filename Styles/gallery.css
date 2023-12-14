@@ -4,6 +4,7 @@
   align-items: center;
   background-color: white;
   padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 @keyframes SlideRight {
@@ -138,4 +139,26 @@
   justify-content: center;
   align-items: center;
   font-family: 'Oswald', sans-serif;
+}
+
+.article-content-adopt {
+  background-color: white;
+  width: 280px;
+  height: 380px;
+  border-radius: 80%;
+  margin-top: 25px;
+  transition: all .35s;
+
+  animation-name: SlideRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+
+.article-content-adopt:hover {
+  background-color: #FCBD49;
+  width: 280px;
+  height: 380px;
+  border-radius: 25px;
+  margin-top: 25px;
 }
