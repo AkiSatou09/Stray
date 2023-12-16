@@ -1,0 +1,70 @@
+.about-00 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.profiles-00 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  background-color: #FCBD49;
+  border-radius: 20px;
+  transition: .35s;
+}
+
+.pfp-00 {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.pfp-01 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.pfp-03 {
+  width: 138px;
+  height: 136px;
+  border-radius: 50%;
+}
+
+h2,h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.why-00 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCBD49;
+}
+
+.parags {
+  background-color: #FCBD49;
+  width: 800px;
+}
+
+.eclabo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCBD49;
+  padding-bottom: 40px;
+}
